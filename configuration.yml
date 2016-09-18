@@ -1,0 +1,17 @@
+tmdbApiKey: 82538e88554fb3f3a841a2da3c2f8260
+
+jerseyClient:
+  minThreads: 5
+  maxThreads: 128
+  workQueueSize: 8
+  gzipEnabled: true
+  gzipEnabledForRequests: true
+  chunkedEncodingEnabled: true
+
+server:
+  type: simple
+  applicationContextPath: /
+  adminContextPath: /admin
+  connector:
+    type: http
+    port: 7002
